@@ -3,18 +3,22 @@
 1. Install required packages via pip:
    Python 3.7 is recommanded. The required packages can be installed using pip:
 ```
+### in command line
 pip install \
 biopython joblib==1.1.0 numpy pandas pickle5==0.0.11 scikit-learn scipy tqdm openpyxl
-### in command line
 ```
   or
 
   
-2. Clone the repository:
+2. By cloning the repository:
    Run the following command:
 ```
-git clone https://github.com/Morvan98/PSMutPred.git
 ### in command line
+git clone https://github.com/Morvan98/PSMutPred.git ## very fast
+cd PSMutPred
+conda env create -f environment.yml ## 1-2 minutes
+conda activate psmutpred
+python predict_variants_using_PSMutPred.py
 ```
 ## How to predict:  
 
