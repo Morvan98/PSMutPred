@@ -1,4 +1,5 @@
 ## How to install: 
+
 1. Install required packages via pip:
    Python 3.7 is recommanded. The required packages can be installed using pip:
 ```
@@ -6,7 +7,9 @@ pip install \
 biopython joblib==1.1.0 numpy pandas pickle5==0.0.11 scikit-learn scipy tqdm openpyxl
 ### in command line
 ```
-  or 
+  or
+
+  
 2. Clone the repository:
    Run the following command:
 ```
@@ -14,6 +17,7 @@ git clone https://github.com/Morvan98/PSMutPred.git
 ### in command line
 ```
 ## How to predict:
+
 1.Edit the script: 'predict_variants_using_PSMutPred.py'
   Replace the path of 'data/dataset/EPS8_clinvar.tsv' with the path to your own variant file:
 ```
