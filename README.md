@@ -9,7 +9,19 @@
    ```
 # How to predict:
 1.Edit the script file: 'predict_variants_using_PSMutPred.py'
-2.
+  replace the path of 'data/dataset/EPS8_clinvar.tsv' by your own variant file
+  ```
+  from model import *
+  pd.set_option('display.max_columns',None)
+  eps8_human = pd.read_csv('data/dataset/EPS8_clinvar.tsv',sep='\t')
+  example_df = eps8_human[['wt_aa','mt_aa','position']]
+  print(example_df.head(10))
+  
+  df_ = predict_df(example_df,'EPS8_HUMAN')
+  
+  print(df_)
+  ```
+2. run 
 ```
 python predict_variants_using_PSMutPred.py
 ```
