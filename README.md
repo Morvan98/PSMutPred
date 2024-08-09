@@ -25,4 +25,8 @@
 ```
 python predict_variants_using_PSMutPred.py
 ```
-    
+3. the expected outputs contains predicted impact on phase separation:
+IP-score:
+Propensity to impact phase separation, which come in the form of a score that ranges from 1, most likely to impact, to 0, not likely to impact.
+SP-score:
+Propensity to strengthen phase separation, which come in the form of a score that ranges from 1, likely to strengthen phase separation, to 0, likely to weaken phase separation.
