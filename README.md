@@ -14,7 +14,7 @@ biopython joblib==1.1.0 numpy pandas pickle5==0.0.11 scikit-learn scipy tqdm ope
    Run the following command:
 ```
 ### in command line
-git clone https://github.com/Morvan98/PSMutPred.git ## very fast
+git clone https://github.com/Morvan98/PSMutPred.git ## 1-2 minutes
 cd PSMutPred
 conda env create -f environment.yml ## 1-2 minutes
 conda activate psmutpred
@@ -25,6 +25,7 @@ python predict_variants_using_PSMutPred.py
 1. Edit the script: 'predict_variants_using_PSMutPred.py'; then
   Replace the path of 'data/dataset/EPS8_clinvar.tsv' with the path to your own variant file:
 ```
+### in .py file within the main directory
 from model import *
 pd.set_option('display.max_columns',None)
 eps8_human = pd.read_csv('data/dataset/EPS8_clinvar.tsv',sep='\t')
@@ -32,12 +33,11 @@ example_df = eps8_human[['wt_aa','mt_aa','position']]
 print(example_df.head(10))
 df_ = predict_df(example_df,'EPS8_HUMAN')
 print(df_)
-### in .py file
 ```
 2. Run the prediction script:
 ```
-python predict_variants_using_PSMutPred.py
 ### in command line
+python predict_variants_using_PSMutPred.py
 ```
 3. Expected outputs:
    The output will include predicted impacts on phase separation:
@@ -46,6 +46,6 @@ python predict_variants_using_PSMutPred.py
 ## Reproduce necessary results
 1. Run the main script:
 ```
-python main.py
 ### in command line
+python main.py
 ```
