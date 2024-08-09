@@ -18,6 +18,8 @@ git clone https://github.com/Morvan98/PSMutPred.git
 ```
 ## How to predict:
 
+
+
 1.Edit the script: 'predict_variants_using_PSMutPred.py'
   Replace the path of 'data/dataset/EPS8_clinvar.tsv' with the path to your own variant file:
 ```
