@@ -24,6 +24,7 @@ python predict_variants_using_PSMutPred.py
 
 1. Edit the script: 'predict_variants_using_PSMutPred.py'; then
   Replace the path of 'data/dataset/EPS8_clinvar.tsv' with the path to your own variant file:
+  It should be noticed that the wild type amino acid has to be matched with the input protein name (uniprot_entry)
 ```
 ### in .py file within the main directory
 from model import *
@@ -43,9 +44,15 @@ python predict_variants_using_PSMutPred.py
    The output will include predicted impacts on phase separation:
     IP-score: Propensity to impact phase separation, ranging from 1 (most likely to impact) to 0 (not likely to impact).
     SP-score: Propensity to strengthen phase separation, ranging from 1 (likely to strengthen phase separation) to 0 (likely to weaken phase separation).
+
+4. Coming updates:
+   I will soon update the prediction function for optional sequences and mutations.
+   
 ## Reproduce necessary results
 1. Run the main script:
 ```
 ### in command line
 python main.py
 ```
+
+2. Source data for PSMutPred paper can be found at data/source_data 
