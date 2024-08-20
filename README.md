@@ -48,11 +48,12 @@ python predict_variants_using_PSMutPred.py
 4. Coming updates:
    I will soon update the prediction function for optional sequences and mutations.
    
-## Reproduce necessary results
+## Paper codes
 1. Run the main script:
 ```
 ### in command line
-python main.py
+python main.py ### can be edited to run the specific file
 ```
-
-2. Source data for PSMutPred paper can be found at data/source_data 
+2. Source data for PSMutPred paper can be found at data/source_data
+3. Dataset that already merge random background dataset are in data/dataset:
+   'data_merged.tsv; data_merged_aa_weighted_background.tsv; data_merged_weighted_sampling.tsv'
