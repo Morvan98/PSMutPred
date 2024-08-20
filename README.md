@@ -46,7 +46,7 @@ python predict_variants_using_PSMutPred.py
     SP-score: Propensity to strengthen phase separation, ranging from 1 (likely to strengthen phase separation) to 0 (likely to weaken phase separation).
 
 4. Coming updates:
-   I will soon update the prediction function for optional sequences and mutations.
+   I will soon update the prediction function for optional sequences and mutations as current version require known human gene_name for input.
    
 ## Paper codes
 1. Run the main script:
