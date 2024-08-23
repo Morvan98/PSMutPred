@@ -1,3 +1,7 @@
+## News:
+Our user friendly website is available:
+Precomputed PSMutPred scores for variants from the Uniprot human-reviewed proteome are available at:  http://www.psmutpred.online/ .
+
 ## How to install:  
 
 1. Install required packages via pip:
