@@ -1,1 +1,2 @@
-## clinvar_uncertain_all_patho_pred_by_PSFeatureAndESM1b.csv contains pathogenicity prediction for ClinVar VUSs by PSFeatures+ESM1b random forest model
+## clinvar_uncertain_all_var.csv contains ClinVar VUSs and clinvar_uncertain_all_patho_pred_by_PSFeatureAndESM1b.csv contains 
+corresponding pathogenicity prediction for ClinVar VUSs by PSFeatures+ESM1b random forest model
