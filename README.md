@@ -29,7 +29,7 @@ python predict_variants_using_PSMutPred.py
 1. Edit the script: 'predict_variants_using_PSMutPred.py'; then
   Replace the path of 'data/dataset/EPS8_clinvar.tsv' with the path to your own variant file:
   It should be noticed that the wild type amino acid has to be matched with the input protein name (uniprot_entry)
-```
+```python
 ### in .py file within the main directory
 from model import *
 pd.set_option('display.max_columns',None)
