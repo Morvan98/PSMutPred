@@ -49,8 +49,8 @@ python predict_variants_using_PSMutPred.py
     IP-score: Propensity to impact phase separation, ranging from 1 (most likely to impact) to 0 (not likely to impact).
     SP-score: Propensity to strengthen phase separation, ranging from 1 (likely to strengthen phase separation) to 0 (likely to weaken phase separation).
 
-4. Coming updates:
-   I will soon update the prediction function for optional sequences and mutations as current version require known human gene_name for input.
+4. Precomputed scores for all human genes:
+   https://pan.sjtu.edu.cn/web/share/34f5569fe5cc7e1043099270925aac3e
    
 ## Paper codes
 1. Run the main script:
